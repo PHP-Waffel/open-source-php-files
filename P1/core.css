@@ -1,0 +1,136 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.spacer{
+  background:#000066;
+}
+td,th{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 2px;
+  background-color: #ffffff;
+}
+td,th:hover{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 2px;
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+blockquote{
+  border: 1px;
+  border-color: #dddddd;
+  width: auto;
+  margin: -10px;
+  align: left;
+}
+img{
+  padding: 4px;
+  margin: auto;
+}
+.inviscontainer > * {
+    display: inline-block;
+}
+.whitecontainer > * {
+    display: inline-block;
+    background-color:white;
+    padding: 16px;
+    margin: 8px;
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+}
+.red-notify{
+  border-left-width:   5px;
+  border-left-style:   solid;
+  border-color:        red;
+}
+.bd{
+   background-color:    #3c3c3c;
+   border-color:        gray;
+   border:              1px;
+}
+p{
+  background-color:    #b3b3b3;
+  padding: 6px;
+  border-left-width:   5px;
+  border-left-style:   solid;
+  border-color:        yellow;
+}
+.ul {
+  align: center;
+  #border-radius: 25px;border: 0px solid gray;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #4d4dff;
+}
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:auto;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:6px;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    background-color:#4d4dff;
+}
+.a{
+  align: center;
+}
+li {
+  position: relative;
+  width:10%;
+  float: center;
+  background-color: #4d4dff;
+}
+li a {
+  position: relative;
+  align: center;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  text-decoration: none;
+  background-color: #4d4dff;
+}
+li a:hover {
+    margin: auto;
+    align: center;
+    color: white;
+    background-color: #003366;
+
+}
+body{
+     background-color:#ebebe0;
+}
+head{
+     background-color:#ebebe0;
+}
+
+         <div>
+                 <#ul>
+                         <#li><a href="index.php">Startseite</a></li>
+                         <#li><a href="#news">Design und Code</a></li>
+                         <#li><a href="index.php&site=projekte">Projekte</a></li>
+                         <#li align="center"><a href="#about">Kontakt</a></li>
+                 <#/ul>
+         </div>

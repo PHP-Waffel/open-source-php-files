@@ -1,0 +1,23 @@
+                 <title></title>
+<meta name="author" content="MagicWaffel
+<body style="background-color:(255, 127, 80);">
+<link rel="stylesheet" type="text/css"href="core.css">
+<div class="inviscontainer">
+<ul style="width:18%; height:auto;">
+  <li><img src="logo.png" align="center" height="40px"></li>
+</ul>
+
+<ul>
+  <li><a href="index.php">Startseite</a></li>
+  <li><a href="#news">Design und Code</a></li>
+  <li color="white" background-color="black"><a href="index.php&site=projekte">Projekte</a></li>
+  <li><a href="#about">Kontakt</a></li>
+</ul>
+</div>
+
+<div class="whitecontainer">
+  <title>Derzeit Laufende Projekte</title>
+</div>
+
+</body>
+</html>
