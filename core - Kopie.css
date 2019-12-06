@@ -36,25 +36,7 @@ img{
     border-color: gray;
     border-style: solid;
 }
-.red-notify{
-  border-left-width:   5px;
-  border-left-style:   solid;
-  border-color:        red;
-}
-.yellow-notify{
-  border-left-width:   5px;
-  border-left-style:   solid;
-  border-color:        yellow;
-}
-ul {
-  border-radius: 25px;border: 1px solid gray;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  width: auto;
-  background-color: white;
-}
+
 li {
   float: left;
   background-color: white;
